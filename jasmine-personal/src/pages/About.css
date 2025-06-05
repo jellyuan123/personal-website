@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Jacques+Francois&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Gowun+Dodum&family=Jacques+Francois&display=swap');
 
 * {
   cursor: url("/public/retro-cursor.png"), auto;
 }
 
 h1 {
-  font-family: "Jacques Francois", serif;
+  font-family: "Gowun Dodum", serif;
   font-size: 24px;
 }
 
@@ -13,6 +13,7 @@ h2 {
   font-family: "Jacques Francois", serif;
   font-size: 40px;
   margin: -0.1rem;
+  color: #914E56;
 }
 
 body {
@@ -27,6 +28,10 @@ body {
   border: 10px solid #dcd49c;
   background-color:  #dcd49c;
   border-radius: 10px;
+  /* box-shadow: 15px 15px 5px #6f6b36; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
   
   position: absolute;
   top: 70px;
@@ -66,8 +71,12 @@ body {
   color: #473040;
 }
 
-
 .link-text:hover {
   color: #914E56;
   cursor: url("/public/actual-hover.png"), auto;
+}
+
+.image-box {
+  margin-left: 65%;
+  margin-top: -30%;
 }

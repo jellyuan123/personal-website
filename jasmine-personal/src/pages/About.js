@@ -16,6 +16,9 @@ function About() {
           </a>
         </div>
       </div>
+      <div className='image-box'> 
+        <img src='/mabel.jpeg' alt='headshot image' height={450} width={300}/>  
+      </div>
       </div>
     </div>   
     </div> 
