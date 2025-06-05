@@ -1,4 +1,5 @@
 import './About.css';
+import { TypeAnimation } from 'react-type-animation';
 
 function About() {
   return (
@@ -7,7 +8,16 @@ function About() {
       <div className='inside-box'>
       <div className='biography'> 
         <h1> Hi, my name is </h1>
-        <h2> Jasmine Schaber. </h2>
+        <div className='typing-container'>
+          <TypeAnimation className="th2"
+            cursor={false}
+            sequence={[
+              ' Jasmine Schaber!',
+              1000,
+            ]}
+            speed={20}
+          />
+        </div>
         <h1> I’m a Computer Science student at Tufts University with experience in fullstack development, who is currently searching for opportunities in software engineering. </h1>
         <div className='link-box'>
           <a href="https://github.com/jellyuan123" className="link-text">GitHub</a>
