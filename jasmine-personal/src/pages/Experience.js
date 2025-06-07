@@ -2,7 +2,12 @@ import './Experience.css';
 
 function Experience() {
   return (
-    <text> Experience Page </text>      
+    <body> 
+      <div className="header"> Projects/Experience </div>    
+      <div className="left-list"> 
+        
+      </div>
+    </body>
   );
 }
 
