@@ -9,4 +9,34 @@
   color: #5B7FBD;
   letter-spacing: 0.1rem;
   font-size: 2.5rem;
+  height: 36rem;
+}
+
+.left-list{
+  width: 10%;
+  height: 85%;
+  margin-top: 2rem;
+  border-left: 2px solid #C07937 ;
+  
+}
+
+button{
+  background-color: #F7FAFF;
+  margin-bottom: 6rem;
+  margin-left: 2rem;
+  font-family: "IBM Plex Mono";
+  white-space: nowrap;
+  font-size: large;
+  /* outline: none; */
+  border: none;
+  color: #5B7FBD;
+
+}
+
+button:focus {
+  outline: none; /* or outline: 0; */
+}
+
+button:hover {
+  cursor: pointer;
 }
