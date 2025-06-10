@@ -13,8 +13,6 @@
 .navbar-left {
   display: flex;
   align-items: center;
-  width: 50px;
-  height: 50px;
   border-radius: 50%;
   margin-left: 1rem;
 }
@@ -24,7 +22,7 @@
   font-size: 1.25rem;
   margin-left: 0.5rem;
   font-weight: bold;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: cursive;
   color: #5B7FBD;
   text-decoration: none;
 }
@@ -49,7 +47,3 @@ cursor: url("/public/actual-hover.png"), auto;
   margin-right: -10px;
 }
 
-.navbar-right .link-text:hover {
-  text-decoration: underline;
-  /* cursor: url("/public/actual-hover.png"), auto; */
-}
