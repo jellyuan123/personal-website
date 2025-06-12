@@ -13,24 +13,37 @@
 }
 
 .left-list{
-  width: 10%;
+  width: 16%;
   height: 85%;
   margin-top: 2rem;
   border-left: 2px solid #C07937 ;
-  
+  overflow-x: hidden; 
+  overflow-y: auto;
+  padding-right: 1.25rem; 
+  padding-top: 0rem;
+}
+
+.dropdown-list {
+  margin-left: 1.25rem;
 }
 
 button{
   background-color: #F7FAFF;
-  margin-bottom: 6rem;
   margin-left: 2rem;
+  margin-bottom: 1.5rem;
   font-family: "IBM Plex Mono";
-  white-space: nowrap;
   font-size: large;
   /* outline: none; */
   border: none;
   color: #5B7FBD;
+  text-align: left;
+  padding-right: 1rem;
+  cursor: pointer;
 
+}
+
+.big-button{
+  font-weight: bold;
 }
 
 button:focus {
