@@ -1,10 +1,7 @@
 import React from 'react';
-import './JobBox.css';
-import JobTextData from './JobText';
+import './TechStack.css';
 
-const JobBox = ( {currentJob} ) => {
-  const jobInfo = JobTextData[currentJob];
-  const bodytext = jobInfo.bodytext;
+const TechStack = ({techstack}) => {
   // console.log(typeof(bodytext));
   // console.log(bodytext);
   // const list  = document.getElementById('list');
@@ -28,7 +25,6 @@ const JobBox = ( {currentJob} ) => {
                     ))}
                   </ul>
             </div>
-            <div className="techstack-container"> TechStack</div>
         </div>
       </div>
         
