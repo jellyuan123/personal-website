@@ -1,6 +1,7 @@
 import React from 'react';
 import './JobBox.css';
 import JobTextData from './JobText';
+import TechStack from './TechStack';
 
 const JobBox = ( {currentJob} ) => {
   const jobInfo = JobTextData[currentJob];
@@ -16,7 +17,7 @@ const JobBox = ( {currentJob} ) => {
 
     return (
       <div className="container">
-        <div className="title">
+        {/* <div className="title"> */}
             {jobInfo.role}
             <div className="timeline"> 
               {jobInfo.timeline}
@@ -28,8 +29,10 @@ const JobBox = ( {currentJob} ) => {
                     ))}
                   </ul>
             </div>
-            <div className="techstack-container"> TechStack</div>
-        </div>
+            <div className="techstack-container">
+              Tech Stack {<TechStack techstack={jobInfo.techstack} />}
+            </div>
+        {/* </div> */}
       </div>
         
     );
