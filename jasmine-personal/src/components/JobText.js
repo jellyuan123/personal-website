@@ -4,9 +4,7 @@ const JobTextData = {
     {
       "role": "AI Outfit Curator - Personal Project",
       "timeline": "May 2025 - Present",
-      "bodytext": ["test"],
-      // "bodytext": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", 
-      //         "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."],
+      "bodytext": ["Work in Progress", "next point", "third point", "this is my final and last test point"],
       "techstack": ["React", "Next", "TailwindCSS"]
     },
 
@@ -14,9 +12,7 @@ const JobTextData = {
     {
       "role": "Blog - Personal Project",
       "timeline": "May 2025 - Present",
-      "bodytext": ["test"],
-      // "bodytext": ["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", 
-      //         "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."],
+      "bodytext": ["Work in Progress", "next point", "third point", "this is my final and last test point"],
       "techstack": ["React", "Next", "TailwindCSS"]
     },
   
@@ -24,7 +20,7 @@ const JobTextData = {
     {
       "role": "Groundwork Somerville - Web Development Intern",
       "timeline": "May 2025 - Present",
-      "bodytext": ["Work in Progress", "next point"],
+      "bodytext": ["Work in Progress", "next point", "third point", "this is my final and last test point"],
       "techstack": ["React", "Next", "TailwindCSS"]
     },
 
@@ -32,7 +28,7 @@ const JobTextData = {
     {
       "role": "Seeing Hands - Software Engineering Volunteer",
       "timeline": "May 2025 - Present",
-      "bodytext": ["Work in Progress", "next point"],
+      "bodytext": ["Work in Progress", "next point", "third point", "this is my final and last test point"],
       "techstack": ["Jinja", "Python", "TailwindCSS"]
     },
 
@@ -40,7 +36,10 @@ const JobTextData = {
     {
       "role":  "A2Empowerment - Software Engineering Intern",
       "timeline": "September 2024 - May 2025",
-      "bodytext": ["Work in Progress", "next point"],
+      "bodytext": ["Collaborated with a cross-functional team (PM, tech lead, designer, dev partner) to deliver a survey feedback platform",
+                   "Developed full-stack user authentication with three-tier permissions, including admin transfers and role promotions.",
+                   "Implemented secure CRUD functionality for up to 200 students to submit and manage feedback surveys.",
+                   "Worked in a fast-paced Agile environment with biweekly assignments and iterative feature rollouts."],
       "techstack": ["React", "Next", "TailwindCSS"]
     },
 
@@ -48,7 +47,9 @@ const JobTextData = {
     {
       "role": "RateMyDiningHall - Hackathon Project",
       "timeline": "February 2025",
-      "bodytext": ["Work in Progress", "next point"],
+      "bodytext": ["Built React pages to display user-submitted reviews, with interactive ratings, images, and like/dislike features",
+                   "Connected to a MongoDB backend for real-time updates and dynamic review display",
+                   "Designed and built the platform end-to-end with one teammate, demoed at the Tufts hackathon"],
       "techstack": ["React", "Next", "TailwindCSS"]
     },
 
