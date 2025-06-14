@@ -1,34 +1,17 @@
-import React from 'react';
 import './TechStack.css';
+import StackImages from './StackImages';
 
 const TechStack = ({techstack}) => {
-  // console.log(typeof(bodytext));
-  // console.log(bodytext);
-  // const list  = document.getElementById('list');
- 
-  // window.onload = () => {
-  //   list.innerHTML = jobInfo.bodytext.map(i => `<li>${i}</li>`).join('');
-  // };
-  
-
     return (
-      <div className="container">
-        <div className="title">
-            {jobInfo.role}
-            <div className="timeline"> 
-              {jobInfo.timeline}
-            </div>
-            <div className="body-text"> 
-                  <ul>
-                    {bodytext.map((item, index) => (
-                      <li key={index}>{item}</li>
-                    ))}
-                  </ul>
-            </div>
-        </div>
-      </div>
-        
+      <div className="tech-text"> 
+            <ul>
+              {techstack.map((item, index) => (
+                console.log(item), console.log(index),
+                <div className="images" key={index}> {StackImages[item]['image']} </div>
+              ))}
+            </ul>
+      </div>  
     );
 };
 
-export default JobBox;
+export default TechStack;
