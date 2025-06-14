@@ -29,12 +29,18 @@
 
 .body-text {
   padding-top: 1rem;
-  font-size: 1rem;
-  width: 80%;
+  font-size: 1.1rem;
+  width: 60%;
   margin-left: 0rem;
   display: flex;
   height: 25rem;
+  font-weight: normal;
+}
 
+.body-text li {
+  margin-bottom: 1rem;     /* adds space between bullet points */
+  white-space: pre-wrap;   /* keeps line breaks if any */
+  line-height: 1.5;        /* makes long lines easier to read */
 }
 
 .techstack-container {
