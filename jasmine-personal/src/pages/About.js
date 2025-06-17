@@ -1,5 +1,6 @@
 import './About.css';
 import { TypeAnimation } from 'react-type-animation';
+import Experience from './Experience'; // adjust the path if needed
 
 function About() {
   return (
