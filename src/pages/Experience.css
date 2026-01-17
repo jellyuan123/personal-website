@@ -27,6 +27,19 @@
   margin-left: 1.25rem;
 }
 
+.big-button{
+  font-weight: bold;
+  margin-left: 2rem;
+  margin-bottom: 1.5rem;
+  font-family: "IBM Plex Mono";
+  font-size: large;
+  /* outline: none; */
+  color: #5B7FBD;
+  text-align: left;
+  padding-right: 1rem;
+  cursor: default;
+}
+
 button{
   background-color: #F7FAFF;
   margin-left: 2rem;
@@ -42,9 +55,6 @@ button{
 
 }
 
-.big-button{
-  font-weight: bold;
-}
 
 button:focus {
   outline: none; /* or outline: 0; */
@@ -52,4 +62,11 @@ button:focus {
 
 button:hover {
   cursor: pointer;
+  color: #e173bd;
+  transition: 0.3s;
 }
+
+/* .job-display {
+  max-width: 20%;
+  overflow: auto;
+} */

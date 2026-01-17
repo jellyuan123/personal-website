@@ -23,6 +23,7 @@ h1 {
 body {
   background-color: #F7FAFF;
   align-items: center;
+  height: auto;
   /* cursor: url("/public/retro-cursor.png"), auto; */
 }
 
